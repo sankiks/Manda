@@ -1,6 +1,4 @@
 # Manda
 Homepage for my projects 
 
-
-
-opa
+https://sankiks.github.io/Manda/homePage.html
