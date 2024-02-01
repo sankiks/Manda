@@ -1,0 +1,81 @@
+body {
+    background-color:rgb(122, 207, 203) ;
+
+}
+
+#music1 {
+    width: 500px;
+}
+#Info {
+  
+    text-shadow:  0 0 5px #fc008b;
+}
+
+.NorthPane {
+    border-radius: 1cap;
+    display: flex;
+    flex-direction: row;
+    background-color: aquamarine;    
+    height: 10%;
+    margin-bottom: 10px;
+    padding: 10px;
+    align-content: center;
+    justify-content: stretch;
+    
+}
+.icon {
+    padding-right: 20px;
+    padding-left: 20px;
+    height: 20px;
+    width: 25px;
+}
+
+.icon:hover{
+    src: "moon.svg"
+}
+
+.NorthPaneRight{
+    width: 50%;
+    height: 13%;
+   border: 2px color("red" rgb(114, 36, 36) green blue);
+   position: right;
+   display: flex;
+    flex-direction: row-reverse;
+    
+}
+.NorthPaneLeft{
+    
+    width: 50%;
+    height: 13%;
+    display: flex;
+   position: left;
+   align-content: left;
+    flex-direction: row;
+    
+      
+}
+#TitleTextStyle{
+    -webkit-text-stroke-width: 1px ;
+    -webkit-text-stroke-color: black;
+}
+
+.flex-container {
+
+    color: rgb(0, 0, 0);
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    align-self: start;
+}
+
+.tooltip {
+    display: inline-block;
+    visibility: hidden;
+    opacity: 0;
+}
+
+.tooltip:hover {
+    visibility: visible;
+    opacity: 1;
+  }
+
