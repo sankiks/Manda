@@ -1,4 +1,4 @@
 # Manda
 Homepage for my projects N
 
-https://sankiks.github.io/Manda/index.html
+https://github.com/sankiks/Manda/blob/main/htmlPage/homePage.html
