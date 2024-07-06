@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+   
+
+
+    <meta charset="UTF-8">
+    <meta name="description" content="width=device-width, initial-scale=1.0" content="Project Page">
+    <link rel="stylesheet" href="../CSS/HomePage-layoutStyle.css">
+    <script src="../node_modules/feather-icons/dist/feather.js"> </script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="../fontawesome-free-6.5.1-web/css/fontawesome.min.css">
+    <link rel="stylesheet" href="../fontawesome-free-6.5.1-web/css/solid.min.css">
+    <script type="text/javascript" src="../js/scripts.js"></script>
+</head>
+
+<body>
+
+
+    <div class="flex-container">
+
+        <div class="NorthPane">
+
+            <div class="NorthPaneLeft">
+                <a href="homePage.html" class="icon">
+                    About
+                </a>
+                <a href="Projects.html" class="icon">
+                    Projects
+                </a>
+
+            </div>
+
+            <div class="NorthPaneRight">
+                <a href="https://www.google.com">
+                    <img src="../Icons/chatBoxNB.png" class="icon" />
+                </a>
+                <a href="Ideas.html">
+
+                    <img src="../Icons/lightbulb.png" class="icon" />
+                </a>
+            </div>
+        </div>
+
+
+        <div class="CenterPane">
+
+            <!--<h1 style="text-align: center;"> Comment section</h1>--> <!-- Can be removed-->
+            <p>Here you can find different topics to discuss and comment about. <br>
+                It can be anything like improvment on this page, better of using different APIs or frameworks, or on why
+                did I
+                do stuff this way.
+
+            </p>
+            <div class="flex">
+
+                <div class="leftCenterpane">
+                    <button onclick="commentField()"> New topic</button>
+
+                    <div id="testList"></div>
+                </div>
+
+                <div class="rightCenterpane">
+                    <div id="content">
+                        <div id="testList"></div>
+                        <div class="comment-box" id="commentBox" style="display: none;">
+
+                            
+                                <label for="fname">First name</label> <br>
+                                <input type="text" id="fname" name="fname"> <br> 
+
+                                <label for="mail">Email address</label><br>
+                                <input type="text" id="mail" name="mail"><br>
+
+                                <label for="title">Idea title</label><br>
+                                <input type="text" id="title" name="title"><br><br>
+                                <textarea name="comment" id="topic" rows="8" placeholder="Type comment">
+                                    </textarea><br>
+                                <input type="submit" value="Submit">
+                                
+                            
+                            <!-- <i class="fa-solid fa-hippo"></i>  -->
+
+                        </div>
+
+                        <div class="topicList" id="topicContent">
+                            <!-- add here the list topic  -->
+
+
+
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+
+
+
+    </div>
+
+
+
+
+</body>
+
+</html>

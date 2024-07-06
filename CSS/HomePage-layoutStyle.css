@@ -1,28 +1,30 @@
 body {
-    background-color:rgb(122, 207, 203) ;
+    background-color: rgb(122, 207, 203);
 
 }
 
 #music1 {
     width: 500px;
 }
+
 #Info {
-  
-    text-shadow:  0 0 5px #fc008b;
+    -webkit-text-fill-color: rgb(38, 7, 150);
+    /*text-shadow:  0 0 5px #ff0000;*/
 }
 
 .NorthPane {
     border-radius: 1cap;
     display: flex;
     flex-direction: row;
-    background-color: aquamarine;    
+    background-color: aquamarine;
     height: 10%;
     margin-bottom: 10px;
     padding: 10px;
     align-content: center;
     justify-content: stretch;
-    
+
 }
+
 .icon {
     padding-right: 20px;
     padding-left: 20px;
@@ -30,32 +32,34 @@ body {
     width: 25px;
 }
 
-.icon:hover{
+.icon:hover {
     src: "moon.svg"
 }
 
-.NorthPaneRight{
+.NorthPaneRight {
     width: 50%;
     height: 13%;
-   border: 2px color("red" rgb(114, 36, 36) green blue);
-   position: right;
-   display: flex;
+    border: 2px color("red" rgb(114, 36, 36) green blue);
+    position: right;
+    display: flex;
     flex-direction: row-reverse;
-    
+
 }
-.NorthPaneLeft{
-    
+
+.NorthPaneLeft {
+
     width: 50%;
     height: 13%;
     display: flex;
-   position: left;
-   align-content: left;
+    position: left;
+    align-content: left;
     flex-direction: row;
-    
-      
+
+
 }
-#TitleTextStyle{
-    -webkit-text-stroke-width: 1px ;
+
+#TitleTextStyle {
+    -webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: black;
 }
 
@@ -77,5 +81,44 @@ body {
 .tooltip:hover {
     visibility: visible;
     opacity: 1;
-  }
+}
 
+.CenterPane {
+    border-radius: 1cap;
+    /* round edges*/
+    background-color: aquamarine;
+
+    margin-bottom: 10px;
+    /* how much space beneithe the pane before other elements can be added */
+    padding: 10px;
+    /* the padding area inside the element on all direction where no element can be added*/
+}
+
+.flex {
+    /*inside centerpane for the right and left pane*/
+    flex-direction: row;
+    display: flex;
+}
+
+.leftCenterpane {
+    width: 30%;
+    height: 100%;
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(0, 0, 0);
+    block-size: 300px;
+
+    background-color: rgb(255, 255, 255);
+}
+
+.rightCenterpane {
+    width: 70%;
+    height: 100%;
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(0, 0, 0);
+    block-size: 300px;
+
+    background-color: rgb(255, 255, 255);
+
+}
